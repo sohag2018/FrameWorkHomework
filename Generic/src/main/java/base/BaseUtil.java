@@ -45,8 +45,8 @@ public class BaseUtil {
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         builder = new Actions(driver);
-        wait = new WebDriverWait(driver,10);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        wait = new WebDriverWait(driver,5);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get("https://www.costco.com/");
         driver.manage().window().fullscreen();
     }
