@@ -53,12 +53,59 @@ public class TestMainPage extends MainPage {
         mainPage.checkLogo();
     }
     @Test
+    public void testAll() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAll();
+    }
+    @Test
     public void testSearch() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkSearch();
     }
-
+    @Test
+    public void testSignInRegister() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSignInRegister();
+    }
+    @Test
+    public void testCart() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCart();
+    }
+    @Test
+    public void testShopAllDepartment() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopAllDepartment();
+    }
+    @Test
+    public void testGrocery() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkGrocery();
+    }
+    @Test
+    public void testBusinessDelivery() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBusinessDelivery();   //takes longer time to check. Need to fix it
+    }
+    @Test
+    public void testOptical() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkOptical();
+    }
+    @Test
+    public void testPharmacy() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPharmacy();
+    }
 
 
 

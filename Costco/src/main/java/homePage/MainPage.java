@@ -19,8 +19,32 @@ public class MainPage extends BaseUtil {
     public static WebElement us;
     @FindBy(xpath ="//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']//img[@class='bc-logo logo-us']" )
     public static WebElement logo;
+    @FindBy(id="search-dropdown-select")
+    public static WebElement All;
     @FindBy(xpath ="//input[@id='search-field']" )
     public static WebElement search;
+    @FindBy(id="header_sign_in")
+    public static WebElement SignInRegister;
+    @FindBy(id="cart-d")
+    public static WebElement Cart;
+    @FindBy(id="navigation-dropdown")
+    public static WebElement ShopAllDepartment;
+    @FindBy(xpath="//a[@id='Home_Ancillary_0']")
+    public static WebElement Grocery;
+    @FindBy(xpath="//a[@id='Home_Ancillary_1']")
+    public static WebElement BusinessDelivery;
+    @FindBy(xpath="//a[@id='Home_Ancillary_2']")
+    public static WebElement Optical;
+    @FindBy(xpath="//a[@id='Home_Ancillary_3']")
+    public static WebElement Pharmacy;
+
+
+
+
+
+
+
+
 
     public void checkviewWareHouseSavings(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -46,8 +70,50 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         logo.click();
     }
+    public void checkAll(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        All.click();
+    }
     public void checkSearch(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        search.click();  //search
+        search.click();
     }
+    public void checkSignInRegister(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        SignInRegister.click();
+    }
+    public void checkCart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Cart.click();
+    }
+    public void checkGrocery(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Grocery.click();
+    }
+    public void checkShopAllDepartment(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Grocery.click();
+    }
+    public void checkBusinessDelivery(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        BusinessDelivery.click();
+    }
+    public void checkOptical(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Optical.click();
+    }
+    public void checkPharmacy(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Pharmacy.click();
+    }
+
+
+
+
+
+
+
+
+
+
 }
