@@ -106,9 +106,90 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkPharmacy();
     }
-
-
-
+    @Test
+    public void testServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkServices();
+    }
+    @Test
+    public void testPhoto() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPhoto();
+    }
+    @Test
+    public void testTravel() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkTravel();
+    }
+    @Test
+    public void testMembership() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkMembership();
+    }
+    @Test
+    public void testLocation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkLocation();
+    }
+    @Test
+    public void customerService() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.customerService();
+    }
+    @Test
+    public void getHelp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.getHelp();
+    }
+    @Test
+    public void findaWarehouse() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.findaWarehouse();
+    }
+    @Test
+    public void getGetEmailOffers() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.getGetEmailOffers();
+    }
+    @Test
+    public void cityStateZip() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.cityStateZip();
+    }
+    @Test
+    public void enterYourEmail() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.enterYourEmail();
+    }
+    @Test
+    public void followUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.followUs();
+    }
+    @Test
+    public void facebookLogo() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.facebookLogo();
+    }
+    @Test
+    public void pLogo() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.pLogo();
+    }
 
 
 

@@ -37,13 +37,34 @@ public class MainPage extends BaseUtil {
     public static WebElement Optical;
     @FindBy(xpath="//a[@id='Home_Ancillary_3']")
     public static WebElement Pharmacy;
-
-
-
-
-
-
-
+    @FindBy(xpath="//a[@id='Home_Ancillary_4']")
+    public static WebElement Services;
+    @FindBy(xpath="//a[@id='Home_Ancillary_5']")
+    public static WebElement Photo;
+    @FindBy(xpath="//a[@id='Home_Ancillary_6']")
+    public static WebElement Travel;
+    @FindBy(xpath="//a[@id='Home_Ancillary_7']")
+    public static WebElement Membership;
+    @FindBy(xpath="//a[@id='Home_Ancillary_0']")
+    public static WebElement Location; // Have to fix
+    @FindBy(xpath="//div[text()='Customer Service']")
+    public static WebElement customerService;
+    @FindBy(className="get-help")
+    public static WebElement getHelp;
+    @FindBy(id="footer-find-warehouse-block")
+    public static WebElement findaWarehouse;
+    @FindBy(id="footer-email-offers-block")
+    public static WebElement getGetEmailOffers;
+    @FindBy(xpath="//input[@id='footer-search-field']")
+    public static WebElement cityStateZip;
+    @FindBy(xpath="//input[@id='footer-email-offers']")
+    public static WebElement enterYourEmail;
+    @FindBy(xpath="//div[text()='Follow Us']")
+    public static WebElement followUs;
+    @FindBy(xpath="//ul[@class='social']//i[@class='fi-social-facebook']")
+    public static WebElement facebookLogo;
+    @FindBy(xpath="//ul[@class='social']//i[@class='fi-social-pinterest']")
+    public static WebElement pLogo;
 
 
     public void checkviewWareHouseSavings(){
@@ -106,11 +127,63 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Pharmacy.click();
     }
+    public void checkServices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Services.click();
+    }
+    public void checkPhoto(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Photo.click();
+    }
+    public void checkTravel(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Travel.click();
+    }
+    public void checkMembership(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Membership.click();
+    }
+    public void checkLocation(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Location.click();
+    }
+    public void customerService(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        customerService.click();
+    }
+    public void getHelp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        getHelp.click();
+    }
+    public void findaWarehouse(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        findaWarehouse.click();
+    }
 
-
-
-
-
+    public void getGetEmailOffers(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        getGetEmailOffers.click();
+    }
+    public void cityStateZip(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        cityStateZip.click();
+    }
+    public void enterYourEmail(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        enterYourEmail.click();
+    }
+    public void followUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        followUs.click();
+    }
+    public void facebookLogo(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        facebookLogo.click();
+    }
+    public void pLogo(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        pLogo.click();
+    }
 
 
 
